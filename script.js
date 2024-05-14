@@ -1,16 +1,12 @@
-// This function clears all the values
-function clearScreen() {
-    document.getElementById("result").value = "";
-}
- 
-// This function displays the values
-function display(value) {
-    document.getElementById("result").value += value;
-}
- 
-// This function evaluates the expression and returns the result
-function calculate() {
-    var p = document.getElementById("result").value;
-    var q = eval(p);
-    document.getElementById("result").value = q;
-}
+// This file is optional and can be used to add interactivity to your website, like toggling menus or animations.
+
+// Example: Add a click event listener to the navigation links
+
+const navLinks = document.querySelectorAll('header nav a');
+
+navLinks.forEach(link => {
+  link.addEventListener('click', function(e) {
+    e.preventDefault();
+    // Handle link click here
+  });
+});

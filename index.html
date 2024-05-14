@@ -1,52 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Second GitHub Repo</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samir The Great</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1> This is My Calculator</h1>
-    <h2>I Can do Some Calculation Here</h2>
-    <h3>Like: Add, multiplication, Substriction , Division</h3>
-    <h3>Here i use HTML,CSS & JAVASCRIPT</h3>
-  <tr>
-    <td colspan="3"> <input class="display-box" type="text" id="result" disabled /> </td>
- 
-    <!-- clearScreen() function clears all the values -->
-    <td> <input type="button" value="C" onclick="clearScreen()" id="btn" /> </td>
-  </tr>
-  <tr>
-    <!-- display() function displays the value of clicked button -->
-    <td> <input type="button" value="1" onclick="display('1')" /> </td>
-    <td> <input type="button" value="2" onclick="display('2')" /> </td>
-    <td> <input type="button" value="3" onclick="display('3')" /> </td>
-    <td> <input type="button" value="/" onclick="display('/')" /> </td>
-  </tr>
-  <tr>
-    <td> <input type="button" value="4" onclick="display('4')" /> </td>
-    <td> <input type="button" value="5" onclick="display('5')" /> </td>
-    <td> <input type="button" value="6" onclick="display('6')" /> </td>
-    <td> <input type="button" value="-" onclick="display('-')" /> </td>
-  </tr>
-  <tr>
-    <td> <input type="button" value="7" onclick="display('7')" /> </td>
-    <td> <input type="button" value="8" onclick="display('8')" /> </td>
-    <td> <input type="button" value="9" onclick="display('9')" /> </td>
-    <td> <input type="button" value="+" onclick="display('+')" /> </td>
-  </tr>
-  <tr>
-    <td> <input type="button" value="." onclick="display('.')" /> </td>
-    <td> <input type="button" value="0" onclick="display('0')" /> </td>
- 
-    <!-- calculate() function evaluates the mathematical expression -->
-    <td> <input type="button" value="=" onclick="calculate()" id="btn" /> </td>
-    <td> <input type="button" value="*" onclick="display('*')" /> </td>
-  </tr>
-</table>
- 
-<script type="text/javascript" src="script.js"></script>
-    
+  <header>
+    <h1><a href="#">Samir The Great</a></h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="blog-post">
+      <h2>Blog Post Title 1</h2>
+      <p>This is the content of the first blog post. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <a href="#" class="read-more">Read More</a>
+    </section>
+    <section class="blog-post">
+      <h2>Blog Post Title 2</h2>
+      <p>This is the content of the second blog post. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <a href="#" class="read-more">Read More</a>
+    </section>
+  </main>
+  <footer>
+    <p>copyright; 2024 Md. Samir Al FayedIfti</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>

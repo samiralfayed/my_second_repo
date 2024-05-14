@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  header h1 {
+    display: inline-block;
+  }
+  
+  header nav {
+    float: right;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .blog-post {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .blog-post h2 {
+    margin-bottom: 10px;
+  }
+  
+  .read-more {
+    text-decoration: none;
+    color: #000;
+  }
